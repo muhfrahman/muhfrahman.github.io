@@ -1,0 +1,43 @@
+.credits{
+    position: fixed;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    bottom: 0;
+    right: 1em;
+}
+.btncredit{
+    cursor: pointer;
+    position: fixed;
+    color: white;
+    display: flex;
+    background: black;
+    border-radius: 5px 5px 0px 0px;
+    padding: 5px;
+    flex-direction: column;
+    align-items: center;
+    bottom: 0;
+    right: 5em;
+}
+.credits a{
+    text-decoration: none;
+    color: white;
+}
+.credit{
+    position: relative;
+    background: black;
+    border-radius: 5px 5px 0px 0px;
+    padding: 20px 40px 20px 40px;
+    width: 70%;
+    -webkit-box-shadow: 0px 4px 14px 8px rgba(0,0,0,0.4);
+    -moz-box-shadow: 0px 4px 14px 8px rgba(0,0,0,0.4);
+    box-shadow: 0px 4px 14px 8px rgba(0,0,0,0.4);
+}
+#x{
+    position: absolute;
+    top: 1em;
+    right: 5em;
+    color: white;
+
+}
