@@ -120,6 +120,7 @@ img.l2{
 
 }
 #capabilities img{
+    z-index: -1;
     height: 100px;
     opacity: 70%;
     animation-name: rotate;
