@@ -55,6 +55,29 @@ img.l1{
 img.l2{
     top: 0em;
 }
+
+/* width */
+::-webkit-scrollbar {
+width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: #888; 
+
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: red; 
+}
+
+
 @keyframes blink{
     from{
         opacity: 0%;
