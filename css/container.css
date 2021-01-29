@@ -219,4 +219,27 @@ img.l2{
         
     }
     
+    
+    .digital{
+        
+    }
+    .applications{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .applications img{
+        height: 90px;
+    }
+    .digitalskill{
+        margin: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    .digitalskill p{
+        margin-top: 10px;
+        text-align: center;
+    }
+    
 }
