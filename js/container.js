@@ -161,15 +161,20 @@ function setUpEvents(){
         target.appendChild(persentage);
         
     }
-        createLevel(9,htmlLevel);
-        createLevel(8,cssLevel);
-        createLevel(8,jsLevel);
-        createLevel(8,phpLevel);
-        createLevel(7,sqlLevel);
+    createLevel(9,htmlLevel);
+    createLevel(8,cssLevel);
+    createLevel(8,jsLevel);
+    createLevel(8,phpLevel);
+    createLevel(7,sqlLevel);
+    
     for(i=0;i<level.length;i++){
         level[i].style.marginLeft= "2.5em";
     }
-    
+    if(window.innerWidth<601){
+        for(i=0;i<level.length;i++){
+            level[i].style.marginLeft= "1em";
+        } 
+    }
 
 }
 

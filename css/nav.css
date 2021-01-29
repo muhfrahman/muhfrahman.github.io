@@ -55,12 +55,19 @@
 }
 
 @media only screen and (max-width: 600px){
+    
     .topnav .content{
         flex-direction: column;
         align-items: center;
     }
-
     .topnavbackground{
-        height: 100px;
+        height: 130px;
+    }
+    .logo{
+        margin: 10px 0px 15px 0px;
+    }
+    .topnav li img{
+        height: 25px;
+        margin: 0px 10px 0px 10px;
     }
 }

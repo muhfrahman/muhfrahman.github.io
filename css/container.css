@@ -178,6 +178,10 @@ img.l2{
 }
 
 @media only screen and (max-width: 600px){
+    
+    .container div.inside{
+        width: 90%;
+    }
     .container{
         padding-top: 6em;
         width: 100%;
@@ -197,12 +201,22 @@ img.l2{
         border: none;
         border-top: 1px solid black;
         width: 100%;
-        padding-top: 50px;
-        padding-bottom: 50px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
     .list{
         margin: 10px;
         width: 100%;
         text-align: center;
     }
+    .display .skillsName{
+        display: flex;
+        flex-direction: row;
+        margin: 0em 1em 0em 1em;
+    }
+    .skill p{
+        margin: 1em;
+        
+    }
+    
 }
