@@ -42,3 +42,22 @@
     color: white;
 
 }
+@media only screen and (max-width: 600px){
+    .btncredit{
+        right: 1em;
+    }
+    .credits{
+        right: 0;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .credit{
+        width: 100%;
+        border-radius: 5px 5px 0px 0px;
+        padding: 20px 20px 20px 20px;
+    }
+    #x{
+        right: 2em;   
+    }
+}
