@@ -42,11 +42,11 @@ function setUpEvents(){
 
         //Final form
         layer1.style.position = "block";
-        layer1.style.top = "0.85em";
+        layer1.style.top = "1.3em";
         layer1.style.transform = "rotate(45deg)";
 
         layer3.style.position = "block";
-        layer3.style.bottom = "0.85em";
+        layer3.style.bottom = "1.3em";
         layer3.style.transform = "rotate(-45deg)";
 
     }

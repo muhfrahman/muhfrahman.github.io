@@ -75,12 +75,12 @@
 .burger .layer{
     background: white;
     border-radius: 2px;
-    height: 7px;
-    width: 40px;
+    height: 5px;
+    width: 30px;
 }
 
 .burger .space{
-    height: 8px;
+    height: 5px;
     width: 40px;
 }
 
@@ -140,7 +140,7 @@
     }
     to{
         position: block;
-        top: 0.85em;
+        top: 1.2em;
         transform: rotate(0deg);
     }
 }
@@ -151,7 +151,7 @@
     }
     to{
         position: block;
-        bottom: 0.85em;
+        bottom: 1.2em;
         transform: rotate(0deg);
     }
 }
