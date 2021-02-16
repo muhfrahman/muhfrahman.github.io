@@ -10,13 +10,6 @@
 }
 .brand{
     z-index: 1;
-    background: #00539CFF;
-    height: 100%;
-    width: 70%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: flex-start;
 }
 .content-nav{
     display: flex;
@@ -75,12 +68,12 @@
 .burger .layer{
     background: white;
     border-radius: 2px;
-    height: 5px;
-    width: 30px;
+    height: 7px;
+    width: 40px;
 }
 
 .burger .space{
-    height: 5px;
+    height: 8px;
     width: 40px;
 }
 
@@ -140,7 +133,7 @@
     }
     to{
         position: block;
-        top: 1.2em;
+        top: 0.85em;
         transform: rotate(0deg);
     }
 }
@@ -151,7 +144,7 @@
     }
     to{
         position: block;
-        bottom: 1.2em;
+        bottom: 0.85em;
         transform: rotate(0deg);
     }
 }
